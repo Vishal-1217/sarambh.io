@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body{
+  margin: 0;
+  padding: 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+
+.course-card{
+  position: relative;
+  background: #E5E0FF;
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+  
+  /* border: 1px solid black; */
+  
+  
+}
+
+.course-card .content ul{
+  width: 400px;
+  padding: 30px;
+  margin: 10px;
+  box-sizing:border-box; 
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  
+}
+
+.course-card .sliderText{
+  position: relative;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7286D3;
+  
+}
+
+.course-card .sliderText h3{
+  color: #000;
+  font-size: 2em;
+  font-family: 'Acme', sans-serif;
+
+}
+
+.swiper-slide{
+  width: 400px;
+}

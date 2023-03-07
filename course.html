@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+<link rel="stylesheet" href="course-list.css">
+</head>
+<body>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="course-card">
+          <div class="sliderText">
+            <h3>Basic Computer Courses</h3>
+          </div>
+        <div class="content">
+          <ul>
+            <li>Diploma in Basic Computers</li>
+              <li>Diploma in Advance computer</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="course-card">
+          <div class="sliderText">
+            <h3>Software Testing Courses</h3>
+          </div>
+        <div class="content">
+          <ul>
+            <li>Diploma in Manual Testing</li>
+            <li>Diploma in Automation Testing - Selenium</li>
+            <li>Diploma in Performance Testing</li>
+            <li>Diploma in API Testing</li>
+            <li>Advance Diploma in Software Testing</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="course-card">
+          <div class="sliderText">
+            <h3>Development Courses</h3>
+          </div>
+        <div class="content">
+          <ul>
+            <li>Diploma in C, C++</li>
+            <li>Diploma in Web development</li>
+            <li>Diploma in Java</li>
+            <li>Diploma in .Net</li>
+            <li>Diploma in Python</li>
+            <li>Advance Diploma in Software Development</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="course-card">
+          <div class="sliderText">
+            <h3>Database Courses</h3>
+          </div>
+        <div class="content">
+          <ul>
+            <li>Advance Diploma in Database Design with MySQL</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="course-card">
+          <div class="sliderText">
+            <h3>Special Courses</h3>
+          </div>
+        <div class="content">
+          <ul>
+            <li>Apache JMeter</li>
+            <li>RPA ( Robotic Process Automation )</li>
+            <li>JIRA</li>
+            <li>Agile Methodology</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+ 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+   <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 600,
+        modifier: 1,
+        slideShadows: true,
+      }
+    });
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
